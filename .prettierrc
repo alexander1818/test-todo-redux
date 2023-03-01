@@ -1,0 +1,10 @@
+{
+  "bracketSpacing": true,
+  "printWidth": 160,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "importOrder": ["^react(.*)$", "^@reduxjs/(.*)$", "^classnames$", "^[./]"],
+  "importOrderSeparation": true,
+  "endOfLine": "auto",
+  "parser": "flow"
+}

@@ -1,0 +1,25 @@
+table {
+    width: 30%;
+    margin-top: 50px;
+    th {
+        border-bottom: 2px solid #000 ;
+    }
+    tbody {
+        text-align: center;
+        tr {
+            cursor: pointer;
+            transition: .2s ease;
+            &:hover {
+                background: #d3d3d3;
+            }
+            .short-text {
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                max-width: 150px;
+                white-space: nowrap;
+            }
+        }
+    }
+}

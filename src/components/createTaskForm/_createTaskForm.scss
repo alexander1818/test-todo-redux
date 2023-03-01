@@ -1,0 +1,28 @@
+.createTask {
+    &__form {
+        display: flex;
+        align-items: flex-end;
+        gap: 50px;
+        .blockWrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .form-input {
+            outline: none;
+            border: 1px solid #808080;
+        }
+        .form-input--error {
+            border: 1px solid #ff0000;
+            outline: none;
+        }
+        .error-massage {
+            position: absolute;
+            bottom: -18px;
+            left: 0;
+            font-size: 12px;
+            color: #ff0000
+        }
+    }
+}
